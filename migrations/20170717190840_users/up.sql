@@ -1,0 +1,9 @@
+-- Your SQL goes here
+CREATE TABLE users (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  username VARCHAR NOT NULL,
+  password VARCHAR NOT NULL,
+  email VARCHAR NOT NULL,
+  bio TEXT NOT NULL,
+  activated BOOLEAN NOT NULL DEFAULT 'f'
+)

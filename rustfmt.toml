@@ -1,0 +1,13 @@
+max_width = 120
+array_layout= "Visual"
+chain_indent= "Visual"
+fn_args_layout= "Visual"
+fn_call_style = "Visual"
+fn_args_layout = "Visual"
+generics_ident = "Visual"
+reorder_imports = true
+reorder_imports_in_group = true
+struct_field_align_threshold = 20
+take_source_hints = true
+where_style = "Legacy"
+error_on_line_overflow = false
